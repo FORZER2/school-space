@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Главная страница</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/auth.css">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+  </head>
+
+  <body>
+    <% if signed_in? %>
+      Ваш аккаунт: <%= current_user.email %>
+      <%= button_to 'Выйти', sign_out_path, method: :delete %>
+    <% else %>
+    <div class="auth">
+      <%= link_to 'Авторизоваться', sign_in_path %>
+    </div>
+    <% end %>
+
+
+
+    <section>
+      <div id="flash">
+        <% flash.each do |key, value| %>
+          <div class="flash <%= key %>"><%= value %></div>
+        <% end %>
+      </div>
+      <%= yield %>
+    </section>
+  </body>
+</html>
