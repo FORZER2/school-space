@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+<rss version="2.0" xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/" xmlns:turbo="http://turbo.yandex.ru">
+	<channel>
+		<title>Главная страница</title>
+		<link><![CDATA[https://1358.space]]></link>
+		<description>Сайт для учеников Школы 1358</description>
+		<language>ru</language>
+		<pubDate>Mon, 12 Apr 2021 19:32:32 +0300</pubDate>
+		<generator>MySitemapGenerator (www.mysitemapgenerator.com)</generator>
+
+		<item turbo="true">
+			<guid isPermaLink="false">927805129</guid>
+			<title>История обновлений</title>
+			<link>https://1358.space/updates.htm</link>
+			<author>Администратор</author>
+			<category>Новости сайта</category>
+			<description>История обновлений сайта для учеников школы 1358</description>
+			<turbo:content><![CDATA[<header>	<h1>История обновлений</h1></header><p>Обновления:</p><p>09.04.2021 - Добавил инфу о училке (<a href="https://1358.space/help.htm">благодаря тому, кто заполнил и отправил анкету о ней</a>). Переместил историю обновлений с главной на отдельную страницу. Оптимизация и прочее.</p><p>08.04.2021 - Добавил страницу "Помочь сайту ", теперь у вас есть возможность поддержать данный сайт, а также добавить информацию о учителях. Оптимизация и т.д.</p><p>Добавил кнопку "Вверх" на странице "Информация о учителях".</p><p>05.04.2021 - Дополнена информация о учителях. Добавлена страница "О сайте".</p><p>31.03.2021 - Добавлена вкладка "Общение", где мы можем теперь с вами общаться!</p><p>Изменён шрифт, теперь читать ещё приятнее (:</p><p>29.03.2021 - Добавлена анимация текста с описанием обновлений при загрузке страницы.</p><p>28.03.2021 - Исправлен баг с отображением иконки сайта.</p><p>27.03.2021 - 1) Добавил фото школы 1358 в качестве фона обновлений.</p><p>2) Установил надпись "Школа 1358" на главной странице.</p><p>3) Улучшил отображение сайта на моб. устройствах.</p><p>4) Оптимизация и прочее.</p><p>24.03.2021 - Изменил цвет кнопки "Информация о учителях" с черной на фиолетовую. Оптимизация и прочие мелочи.</p>]]></turbo:content>
+			<pubDate>Mon, 12 Apr 2021 19:32:33 +0300</pubDate>
+		</item>
+		<item turbo="true">
+			<guid isPermaLink="false">2015116895</guid>
+			<title>О сайте</title>
+			<link>https://1358.space/about.htm</link>
+			<author>Администратор</author>
+			<category>Новости сайта</category>
+			<description>О сайте про школу 1358</description>
+			<turbo:content><![CDATA[<header>	<h1>О сайте</h1></header><p>Данный сайт был создан для учеников школы 1358, здесь публикуется настоящая информация о учителях, директоре и многое другое.</p>]]></turbo:content>
+			<pubDate>Mon, 12 Apr 2021 19:32:33 +0300</pubDate>
+		</item>
+		<item turbo="true">
+			<guid isPermaLink="false">3378293213</guid>
+			<title>Учителя школы 1358</title>
+			<link>https://1358.space/info.htm</link>
+			<author>Администратор</author>
+			<category>Новости сайта</category>
+			<description>Информация о учителях</description>
+			<turbo:content><![CDATA[<header>	<h1>Учителя школы 1358</h1></header><p>Информация:</p><p>Может помочь ученику, если у него возник вопрос.</p><p>Не очень понятно объясняет темы.</p><p>Не пускает в туалет на уроке.</p><p>Хамит.</p><p>Почти постоянно говорит громко, что чуть ли не кричит.</p>]]></turbo:content>
+			<pubDate>Mon, 12 Apr 2021 19:32:34 +0300</pubDate>
+		</item>
+		<item turbo="true">
+			<guid isPermaLink="false">3546083647</guid>
+			<title>Помочь сайту</title>
+			<link>https://1358.space/help.htm</link>
+			<author>Администратор</author>
+			<category>Новости сайта</category>
+			<description>Пожертвование</description>
+			<turbo:content><![CDATA[<header>	<h1>Помочь сайту</h1></header><p>Хочешь помочь сайту?</p><p>Дело в том, что мне приходится каждый месяц платить за хостинг, дабы этот сайт существовал. Поэтому, именно благодаря тебе, сайт может просуществовать гораздо дольше. Ведь даже 3 рубля - это уже хорошо.</p><p>Также, вы можете помочь с информацией о учителях, достаточно лишь заполнить данную форму и отправить, после чего я опубликую вашу инфу.</p>]]></turbo:content>
+			<pubDate>Mon, 12 Apr 2021 19:32:34 +0300</pubDate>
+		</item>
+	</channel>
+</rss>

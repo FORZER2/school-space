@@ -1,0 +1,59 @@
+---
+en:
+  clearance:
+    models:
+      clearance_mailer:
+        change_password: Сменить пароль
+  clearance_mailer:
+    change_password:
+      closing: Если вы не запрашивали сброса пароля, проигнорируйте это письмо. Ваш пароль не будет изменен.
+      link_text: Сменить пароль
+      opening: "Вы запросили ссылку для сброса пароля:"
+  flashes:
+    failure_after_create: Неверный адрес электронной почты или пароль.
+    failure_after_update: Пароль не может быть пустым.
+    failure_when_forbidden: Пожалуйста, проверьте URL адрес сайта или попробуйте отправить форму еще раз.
+    failure_when_not_signed_in: Пожалуйста, войдите в аккаунт, чтобы продолжить.
+    failure_when_missing_email: Адрес электронной почты не может быть пустым.
+  helpers:
+    label:
+      password:
+        email: Адрес электронной почты
+      password_reset:
+        password: Введите пароль
+      session:
+        password: Пароль
+      user:
+        password: Пароль
+    submit:
+      password:
+        submit: Сбросить пароль
+      password_reset:
+        submit: Сохранить этот пароль
+      session:
+        submit: Войти
+      user:
+        create: Зарегистрироваться
+  layouts:
+    application:
+      sign_in: Авторизоваться
+      sign_out: Выйти
+  passwords:
+    create:
+      description: Вы получите электронное письмо в течение следующих нескольких минут. Он содержит инструкции по смене пароля.
+    edit:
+      description: Ваш пароль был сброшен. Введите новый пароль ниже.
+      title: Сменить пароль
+    new:
+      description: Чтобы получить ссылку для сброса пароля по электронной почте, введи свой адрес электронной почты.
+      title: Сбросить пароль
+  sessions:
+    form:
+      forgot_password: Забыл пароль
+      sign_up: Зарегистрироваться
+    new:
+      title: Авторизоваться
+  users:
+    new:
+      sign_in: Авторизоваться
+      title: Зарегистрироваться

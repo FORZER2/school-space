@@ -1,3 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  a {
+    font-family: sans-serif;
+  }
+  
+  p {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    font-family: sans-serif;
+  }
+
 .auth {
-    
+    font-size: 24px;
+    background-color: #33CCCC;
+    text-align: center;
+}
+
+.leave-button {
+  position: fixed;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Microsoft', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #fff;
+  background: #00CCFF;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+  flex-wrap: wrap;
 }

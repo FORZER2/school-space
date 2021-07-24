@@ -1,1 +1,8 @@
-# See https://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+User-agent: *
+Allow: /index.htm
+Allow: /info.htm
+Allow: /feed.rss
+Disallow: /about.htm
+Disallow: /help.htm
+Host: https://1358.space
+Sitemap: https://1358.space/sitemap.xml

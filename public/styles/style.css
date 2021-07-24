@@ -4,16 +4,36 @@
   font-family: sans-serif;
 }
 
+/*
+  ... стандартные правила CSS ...
+  например, выводим карточки товаров по 4 в ряд
+*/
+@media (max-width:768px) {
+  /*
+    ... правила для планшетов ...
+    выводим карточки товаров по 2 в ряд
+  */
+}
+@media (max-width:320px) {
+  /*
+    ... правила для смартфонов ...
+    выводим карточки товаров по 1 в ряд
+  */
+}
+
 a {
   font-family: sans-serif;
+  text-decoration: none;
 }
 
 p {
   font-family: sans-serif;
+  text-decoration: none;
 }
 
 h1 {
   font-family: sans-serif;
+  text-decoration: none;
 }
 
 .d-1 {

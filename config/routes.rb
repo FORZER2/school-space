@@ -3,4 +3,10 @@ Rails.application.routes.draw do
   root to: "home#index"
 
   # get 'home' => 'home#index'
+  get 'about' => 'about#about'
+  get 'info' => 'info#info'
+  get 'updates' => 'updates#updates'
+  get 'help' => 'help#help'
+  get 'director' => 'director#director'
+  get 'talking' => 'talking#talking'
 end

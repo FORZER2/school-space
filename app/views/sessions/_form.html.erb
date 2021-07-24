@@ -1,0 +1,26 @@
+<head>
+  <link rel="icon" href="img/registration.png">
+</head>
+
+<%= form_for :session, url: session_path do |form| %>
+  <div class="text-field">
+    <%= form.label :email %>
+    <%= form.text_field :email, type: 'email' %>
+  </div>
+
+  <div class="password-field">
+    <%= form.label :password %>
+    <%= form.password_field :password %>
+  </div>
+
+  <div class="submit-field">
+    <%= form.submit %>
+  </div>
+
+  <div class="other-links">
+    <% if Clearance.configuration.allow_sign_up? %>
+      <%= link_to t("Ещё не зарегистрирован?"), sign_up_path %>
+    <% end %>
+    <!-- <%= link_to t("Забыл пароль?"), new_password_path %> -->
+  </div>
+<% end %>
