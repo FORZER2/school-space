@@ -1,10 +1,11 @@
 * {
-    background-color: black;
+    -webkit-font-smoothing: antialiased;
+    background-color: #d9d9d9;
 }
 
 p {
     font-family: sans-serif;
-    color: #ffffff;
+    color: #000000;
 }
 
 a {
@@ -19,7 +20,7 @@ a {
 }
 
 .list p {
-    text-align: center;
+    text-align: left;
     font-size: 24px;
     flex-wrap: wrap;
     letter-spacing: 1px;

@@ -1,3 +1,7 @@
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
 .gradient-button {
     position: fixed;
     text-decoration: none;
@@ -25,3 +29,4 @@
     color: white;
     transform: translateY(-5px);
   }
+  

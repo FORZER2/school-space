@@ -1,13 +1,10 @@
 * {
+  -webkit-font-smoothing: antialiased;
   padding: 0;
   margin: 0;
   font-family: sans-serif;
 }
 
-/*
-  ... стандартные правила CSS ...
-  например, выводим карточки товаров по 4 в ряд
-*/
 @media (max-width:768px) {
   /*
     ... правила для планшетов ...
@@ -221,7 +218,7 @@ h1 {
 
 .updates {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, 400%);
   flex-wrap: wrap;
@@ -258,10 +255,14 @@ h1 {
   border: 1px solid black;
   background: black;
   position: relative;
+  margin: 0;
+  padding: 0;
 }
 
 .about-us a {
   color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 .buttoni {
@@ -270,7 +271,7 @@ h1 {
 
 .welcome {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -20%);
   flex-wrap: wrap;

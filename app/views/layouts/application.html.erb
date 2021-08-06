@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles/auth.css">
+    <%= stylesheet_link_tag "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" %>
     <link rel="icon" href="img/scolar.png">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
   </head>
 
   <body>
     <% if signed_in? %>
-      <div class="account-preview">
+      <div class="alert alert-primary">
         Ваш аккаунт: <%= current_user.email %>
       </div>
       <div class="leave-button">
-        <%= button_to 'Выйти', sign_out_path, method: :delete %>
+        <%= button_to 'Выйти', sign_out_path, class: 'btn btn-secondary', method: :delete %>
       </div>
     <% else %>
-    <div class="auth">
-      <%= link_to 'Регистрация', sign_up_path %>
+    <div class="alert alert-primary mb-0">
+      <%= link_to 'Войти в аккаунт', sign_in_path, class: 'sign-up-text' %>
     </div>
     <% end %>
 
@@ -28,7 +29,7 @@
     <section>
       <div id="flash">
         <% flash.each do |key, value| %>
-          <div class="flash <%= key %>"><%= value %></div>
+          <div class="alert alert-danger flash <%= key %>"><%= value %></div>
         <% end %>
       </div>
       <%= yield %>

@@ -1,3 +1,7 @@
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
 .comming p {
     text-align: center;
     font-size: 120px;

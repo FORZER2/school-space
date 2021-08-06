@@ -12,24 +12,26 @@
 }
 
 * {
+  -webkit-font-smoothing: antialiased;
   margin: 0;
   font-family: sans-serif;
 }
 
-a {
-  font-family: sans-serif;
+.btn {
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
-p {
-  font-family: sans-serif;
+body {
+  background-color: #ebebeb;
 }
 
 img {
   margin-left: 100px;
-}
-
-h1 {
-  font-family: sans-serif;
+  border-radius: 10px;
 }
   
   .gradient-button {
@@ -52,6 +54,7 @@ h1 {
     box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
     transition: .3s;
     flex-wrap: wrap;
+    z-index: +1000000;
   }
 
   .gradient-button:hover {
@@ -65,22 +68,8 @@ h1 {
   text-align: center;
   font-size: 30px;
   color: #ffffff;
-  float: top;
   flex-wrap: wrap;
-  border: 1px solid black;
   background: black;
-}
-
-.title-2 {
-  text-align: center;
-  font-size: 30px;
-  float: top;
-  border: 1px solid black;
-  background: #0087e1;
-}
-
-.title-2 a {
-  color: #ffffff;
 }
 
 .title-teacher h1 {
@@ -91,6 +80,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 110px;
+  font-weight: bold;
 }
 
 .photo-teacher {
@@ -103,9 +93,12 @@ h1 {
   cursor: pointer;
   position: fixed;
   z-index: 100;
-  margin: 30px 1730px;
   transition: .3s;
   flex-wrap: wrap;
+  display: flex;
+  left: 90%;
+  right: 10%;
+  margin-top: 25px;
 }
 
   .buttonup img {

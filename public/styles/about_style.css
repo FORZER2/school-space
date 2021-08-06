@@ -1,19 +1,24 @@
 * {
+  -webkit-font-smoothing: antialiased;
   padding: 0;
   margin: 0;
-  background-color: black;
+  background-color: #d9d9d9;
 }
 
 .comming p {
   text-align: center;
-  font-size: 50px;
+  transform: translate(13%, 0%);
+  font-size: 35px;
   flex-wrap: wrap;
-  color: #fff;
-
+  color: black;
+  overflow: hidden;
+  width: 80%;
+  -webkit-box-sizing: border-box;
+  padding: 20px;
 }
 
 .hello p {
-  font-size: 70px;
+  font-size: 55px;
   font-weight: bold;
   flex-wrap: wrap;
   margin-top: 40px;
@@ -39,6 +44,7 @@
     box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
     transition: .3s;
     flex-wrap: wrap;
+    z-index: +999999999;
   }
 
   .gradient-button:hover {

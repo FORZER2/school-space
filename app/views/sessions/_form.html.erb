@@ -1,26 +1,33 @@
-<head>
-  <link rel="icon" href="img/registration.png">
-</head>
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Войти в аккаунт</title>
+    <link rel="icon" href="img/registration.png">
+    <a href="/" class="gradient-button" onclick="window.location.href='/';">&laquo; Назад</a>
+    <%= stylesheet_link_tag "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" %>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!---- <a href="/" class="gradient-button" onclick="window.location.href='/';">&laquo; Назад</a> --->
+  </head>
 
-<%= form_for :session, url: session_path do |form| %>
-  <div class="text-field">
-    <%= form.label :email %>
-    <%= form.text_field :email, type: 'email' %>
-  </div>
+  <%= form_for :session, url: session_path do |form| %>
+    <div class="text-field">
+      <%= form.text_field :email, placeholder: 'Email', type: 'email', class: 'form-control' %>
+    </div>
 
-  <div class="password-field">
-    <%= form.label :password %>
-    <%= form.password_field :password %>
-  </div>
+    <div class="password-field">
+      <%= form.password_field :password, placeholder: 'Пароль', class: 'form-control' %>
+    </div>
 
-  <div class="submit-field">
-    <%= form.submit %>
-  </div>
+    <div class="submit-field">
+      <%= form.submit class: 'btn btn-primary' %>
+    </div>
 
-  <div class="other-links">
-    <% if Clearance.configuration.allow_sign_up? %>
-      <%= link_to t("Ещё не зарегистрирован?"), sign_up_path %>
-    <% end %>
-    <!-- <%= link_to t("Забыл пароль?"), new_password_path %> -->
-  </div>
-<% end %>
+    <div class="other-links">
+      <% if Clearance.configuration.allow_sign_up? %>
+        <%= link_to t("Ещё не зарегистрирован?"), sign_up_path %>
+      <% end %>
+        <!---- <%= link_to t("Забыл пароль?"), new_password_path %> --->
+    </div>
+  <% end %>
+</html>

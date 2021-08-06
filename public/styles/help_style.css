@@ -1,8 +1,9 @@
 * {
+    -webkit-font-smoothing: antialiased;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: black;
+    background-color: rgb(34, 34, 34);
 }
 
 .gradient-button {
