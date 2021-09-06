@@ -21,7 +21,7 @@
     .App-logo {
         animation: App-logo-spin infinite 20s cubic-bezier(0.6, -0.28, 0.74, 0.05);
     }--->
-    <noscript><div><img src="https://mc.yandex.ru/watch/75576412" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript><div><img src="https://mc.yandex.ru/watch/75576412" style="position: absolute; left: -9999px;" alt=""/></div></noscript>
     <!-- /Yandex.Metrika counter -->
     <meta charset="utf-8">
     <title>Главная страница</title>
@@ -33,19 +33,13 @@
 
     <nav>
         <div class="title">
-            <h1>ГБОУ Школа № 1358</h1>
+            <h1>ГБОУ Школа №&nbsp;1358</h1>
         </div>
 
         <section class="buttoni">
-            <div class="d-1">
-                <a href="info">Информация о учителях</a>
-             </div>
-            <div class="d-2">
-                <a href="director">Директор</a>
-            </div>
-            <div class="d-3">
-                <a href="talking">Общение</a>
-            </div>
+            <button type="button" id="button1" class="btn btn-primary" onclick="window.location.href='teachers'">Информация о учителях</button>
+            <button type="button" id="button2" class="btn btn-dark" onclick="window.location.href='director'">Директор</button>
+            <button type="button" id="button3" class="btn btn-success" onclick="window.location.href='talking'">Общение</button>
         </section>
     </nav>
 </head>
@@ -62,8 +56,10 @@
     </div>
 
     <footer>
-        <div class="about-us">
-            <p><a href="about">О сайте</a></p><p><a href="help">Помочь сайту❤️</a></p>
+        <div class="about-us d-flex justify-content-around">
+            <a href="about">О сайте</a>
+            <a href="help">Помочь сайту❤️</a>
+            <a href="https://vk.com/sup1358">Наша группа в ВК</a>
         </div>
     </footer>
 </body>

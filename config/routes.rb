@@ -4,7 +4,9 @@ Rails.application.routes.draw do
 
   # get 'home' => 'home#index'
   get 'about' => 'about#about'
-  get 'info' => 'info#info'
+  get 'teachers2' => 'teachers2#teachers2'
+  get 'teachers3' => 'teachers3#teachers3'
+  get 'teachers' => 'teachers#teachers'
   get 'updates' => 'updates#updates'
   get 'help' => 'help#help'
   get 'director' => 'director#director'

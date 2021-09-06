@@ -2,6 +2,10 @@
   -webkit-font-smoothing: antialiased;
 }
 
+body {
+  background-color: #dcdcdc;
+}
+
 .gradient-button {
     position: fixed;
     text-decoration: none;
@@ -22,6 +26,7 @@
     box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
     transition: .3s;
     flex-wrap: wrap;
+    z-index: +100000000000;
   }
   .gradient-button:hover {
     background: #2EE59D;

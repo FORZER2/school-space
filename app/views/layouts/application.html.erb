@@ -8,21 +8,19 @@
     <link rel="icon" href="img/scolar.png">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-  </head>
 
-  <body>
-    <% if signed_in? %>
-      <div class="alert alert-primary">
-        Ваш аккаунт: <%= current_user.email %>
-      </div>
-      <div class="leave-button">
-        <%= button_to 'Выйти', sign_out_path, class: 'btn btn-secondary', method: :delete %>
-      </div>
-    <% else %>
-    <div class="alert alert-primary mb-0">
-      <%= link_to 'Войти в аккаунт', sign_in_path, class: 'sign-up-text' %>
-    </div>
-    <% end %>
+      <% if signed_in? %>
+        <div class="alert alert-primary">
+          Ваш аккаунт: <%= current_user.email %>
+        </div>
+        <div class="leave-button">
+          <%= button_to 'Выйти', sign_out_path, class: 'btn btn-danger', method: :delete %>
+        </div>
+      <% else %>
+        <div class="alert alert-primary mb-0">
+          <%= link_to 'Войти в аккаунт', sign_in_path, class: 'sign-up-text' %>
+        </div>
+      <% end %>
 
 
 
@@ -34,5 +32,9 @@
       </div>
       <%= yield %>
     </section>
+  </head>
+
+  <body>
+
   </body>
 </html>
